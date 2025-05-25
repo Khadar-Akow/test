@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>BookMark Saver</h1>
+        <form id="bookmark-form">
+            <input type="text" id="title" placeholder="Enter Title" >
+            <input type="text" id="url" placeholder="Enter URL" >
+            <button type="submit" id="submit">Add BookMark</button>
+        </form>
+        <div class="bookmark-list">
+            <ul id="bookmark-list">
+                <!-- Bookmarks will be dynamically added here -->
+            </ul>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -22,6 +22,11 @@ function addBookmark(e) {
             confirmButtonColor: '#d33'
         });
         return;
+    } else {
+        if (!url.startsWith("http://") && !url.startsWith("https://")) {
+            alert("Please enter a valid URL starting with http:// or https://");
+            return;
+        }
     }
 
     bookmarks.push({

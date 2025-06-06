@@ -9,7 +9,7 @@ const dateElement = document.getElementById("date");
 const filters = document.querySelectorAll(".filter");
 
 let todos = [];
-let currentFilter = "all";
+let currentFilter = "all"; 
 
 addTaskBtn.addEventListener("click", () => {
   addTodo(taskInput.value);
